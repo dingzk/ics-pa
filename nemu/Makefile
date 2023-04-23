@@ -1,4 +1,5 @@
 # Sanity check
+NEMU_HOME=/home/zhenkai/work/code/ics2021/nemu
 ifeq ($(wildcard $(NEMU_HOME)/src/nemu-main.c),)
   $(error NEMU_HOME=$(NEMU_HOME) is not a NEMU repo)
 endif
